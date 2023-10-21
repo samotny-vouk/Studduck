@@ -1,0 +1,6 @@
+someFunction :: [a] -> [a]
+someFunction (x:xs) =
+           | even x = someFunction xs : x
+           | otherwise = someFinction xs : 0
+-- i really hope that i could write
+-- functions like this
